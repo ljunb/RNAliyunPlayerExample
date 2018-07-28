@@ -7,13 +7,16 @@
  */
 
 import React, { Component } from "react";
-import { Platform, StyleSheet, Text, View, Dimensions } from "react-native";
-import AliyunPlayerView from "./AliyunPlayerView";
-// import AliyunPlayerView from 'react-native-aliyun-player';
+import { Platform, StyleSheet, Text, View, Dimensions, TouchableOpacity } from "react-native";
+import AliyunPlayerView from 'react-native-aliyun-player';
 
 const SCREEN_W = Dimensions.get('window').width;
 
 export default class App extends Component {
+
+  state = {
+    play: true
+  }
 
   handleEventCallback = evt => {
     const { event } = evt.nativeEvent;
@@ -25,11 +28,17 @@ export default class App extends Component {
     console.log(`CurrentTime: ${currentTime} duration: ${duration}`);
   }
 
+  handlePlay = () => alert('test');
+
   render() {
     return (
       <View style={styles.container}>
+        <TouchableOpacity onPress={this.handlePlay} style={{ height: 40, width: 100, backgroundColor: 'red' }}>
+          <Text>播放/暂停</Text>
+        </TouchableOpacity>
         <AliyunPlayerView
           style={{ height: 300, width: SCREEN_W }}
+          play={this.state.play}
           prepareAsyncParams={{
             type: "vidSts",
             vid: "04aa91c809c741178d76af4b95f1b680",

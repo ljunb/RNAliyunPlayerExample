@@ -20,19 +20,14 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		346E1ECB2102DF670014C5AB /* AliyunPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 346E1E9D2102DF660014C5AB /* AliyunPlayManager.m */; };
-		346E1ECC2102DF670014C5AB /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC62102DF670014C5AB /* AliThirdparty.framework */; };
-		346E1ECD2102DF670014C5AB /* AliyunLanguageSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 346E1EC72102DF670014C5AB /* AliyunLanguageSource.bundle */; };
-		346E1ECE2102DF670014C5AB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC82102DF670014C5AB /* AliyunPlayerSDK.framework */; };
-		346E1ED02102DF670014C5AB /* RNAliyunPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 346E1ECA2102DF670014C5AB /* RNAliyunPlayer.m */; };
-		346E1ED12102E0420014C5AB /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC62102DF670014C5AB /* AliThirdparty.framework */; };
-		346E1ED22102E0420014C5AB /* AliThirdparty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC62102DF670014C5AB /* AliThirdparty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		346E1ED62102E0590014C5AB /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC82102DF670014C5AB /* AliyunPlayerSDK.framework */; };
-		346E1ED72102E0590014C5AB /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC82102DF670014C5AB /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		346E1ED82102E05F0014C5AB /* AliyunLanguageSource.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 346E1EC72102DF670014C5AB /* AliyunLanguageSource.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		346E1EDA2102E1060014C5AB /* AliyunVodPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC92102DF670014C5AB /* AliyunVodPlayerSDK.framework */; };
-		346E1EDB2102E1060014C5AB /* AliyunVodPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 346E1EC92102DF670014C5AB /* AliyunVodPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3490AF4421046D8100147CC2 /* AliyunPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3490AF4321046D8100147CC2 /* AliyunPlayerView.m */; };
+		3484451A210C6ACC00C65CFE /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348444F2210C6ACC00C65CFE /* AliyunPlayerSDK.framework */; };
+		3484451B210C6ACC00C65CFE /* AliyunPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 348444F2210C6ACC00C65CFE /* AliyunPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3484451C210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34844519210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework */; };
+		3484451D210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34844519210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34844520210C6AF900C65CFE /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3484451E210C6AF900C65CFE /* AliThirdparty.framework */; };
+		34844521210C6AF900C65CFE /* AliThirdparty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3484451E210C6AF900C65CFE /* AliThirdparty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34844522210C6AF900C65CFE /* AliyunLanguageSource.bundle in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 3484451F210C6AF900C65CFE /* AliyunLanguageSource.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		54EEBB316CDD45ADB3389A6C /* libRNAliyunPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D085DB1D6F7474F91DE7C97 /* libRNAliyunPlayer.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -172,6 +167,13 @@
 			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
 			remoteInfo = "privatedata-tvOS";
 		};
+		34197C2A21096F750036B9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C460944864A46AEB959B483 /* RNAliyunPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNAliyunPlayer;
+		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
@@ -307,9 +309,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				346E1ED72102E0590014C5AB /* AliyunPlayerSDK.framework in Embed Frameworks */,
-				346E1ED22102E0420014C5AB /* AliThirdparty.framework in Embed Frameworks */,
-				346E1EDB2102E1060014C5AB /* AliyunVodPlayerSDK.framework in Embed Frameworks */,
+				34844521210C6AF900C65CFE /* AliThirdparty.framework in Embed Frameworks */,
+				3484451D210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework in Embed Frameworks */,
+				3484451B210C6ACC00C65CFE /* AliyunPlayerSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +322,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				346E1ED82102E05F0014C5AB /* AliyunLanguageSource.bundle in Embed PlugIns */,
+				34844522210C6AF900C65CFE /* AliyunLanguageSource.bundle in Embed PlugIns */,
 			);
 			name = "Embed PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,8 +336,6 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AliyunPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerDemoTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AliyunPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliyunPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,19 +347,15 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AliyunPlayerDemo/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		346E1E9D2102DF660014C5AB /* AliyunPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayManager.m; sourceTree = "<group>"; };
-		346E1EC32102DF660014C5AB /* RNAliyunPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAliyunPlayer.h; sourceTree = "<group>"; };
-		346E1EC42102DF670014C5AB /* AliyunPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunPlayManager.h; sourceTree = "<group>"; };
-		346E1EC62102DF670014C5AB /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliThirdparty.framework; sourceTree = "<group>"; };
-		346E1EC72102DF670014C5AB /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AliyunLanguageSource.bundle; sourceTree = "<group>"; };
-		346E1EC82102DF670014C5AB /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
-		346E1EC92102DF670014C5AB /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunVodPlayerSDK.framework; sourceTree = "<group>"; };
-		346E1ECA2102DF670014C5AB /* RNAliyunPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAliyunPlayer.m; sourceTree = "<group>"; };
-		3490AF4221046D8100147CC2 /* AliyunPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerView.h; sourceTree = "<group>"; };
-		3490AF4321046D8100147CC2 /* AliyunPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerView.m; sourceTree = "<group>"; };
+		348444F2210C6ACC00C65CFE /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunPlayerSDK.framework; path = "../node_modules/react-native-aliyun-player/ios/libs/AliyunPlayerSDK.framework"; sourceTree = "<group>"; };
+		34844519210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunVodPlayerSDK.framework; path = "../node_modules/react-native-aliyun-player/ios/libs/AliyunVodPlayerSDK.framework"; sourceTree = "<group>"; };
+		3484451E210C6AF900C65CFE /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliThirdparty.framework; path = "../node_modules/react-native-aliyun-player/ios/libs/AliThirdparty.framework"; sourceTree = "<group>"; };
+		3484451F210C6AF900C65CFE /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AliyunLanguageSource.bundle; path = "../node_modules/react-native-aliyun-player/ios/libs/AliyunLanguageSource.bundle"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		6C460944864A46AEB959B483 /* RNAliyunPlayer.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAliyunPlayer.xcodeproj; path = "../node_modules/react-native-aliyun-player/ios/RNAliyunPlayer.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8D085DB1D6F7474F91DE7C97 /* libRNAliyunPlayer.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAliyunPlayer.a; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -370,22 +366,21 @@
 			files = (
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
-				346E1ED12102E0420014C5AB /* AliThirdparty.framework in Frameworks */,
-				346E1ECE2102DF670014C5AB /* AliyunPlayerSDK.framework in Frameworks */,
+				34844520210C6AF900C65CFE /* AliThirdparty.framework in Frameworks */,
+				3484451C210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework in Frameworks */,
+				3484451A210C6ACC00C65CFE /* AliyunPlayerSDK.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
-				346E1ED62102E0590014C5AB /* AliyunPlayerSDK.framework in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
-				346E1ECC2102DF670014C5AB /* AliThirdparty.framework in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				346E1EDA2102E1060014C5AB /* AliyunVodPlayerSDK.framework in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				54EEBB316CDD45ADB3389A6C /* libRNAliyunPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,23 +429,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* AliyunPlayerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* AliyunPlayerDemoTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = AliyunPlayerDemoTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,11 +452,6 @@
 		13B07FAE1A68108700A75B9A /* AliyunPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				346E1EC42102DF670014C5AB /* AliyunPlayManager.h */,
-				346E1E9D2102DF660014C5AB /* AliyunPlayManager.m */,
-				346E1EC52102DF670014C5AB /* libs */,
-				346E1EC32102DF660014C5AB /* RNAliyunPlayer.h */,
-				346E1ECA2102DF670014C5AB /* RNAliyunPlayer.m */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -486,8 +459,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				3490AF4221046D8100147CC2 /* AliyunPlayerView.h */,
-				3490AF4321046D8100147CC2 /* AliyunPlayerView.m */,
 			);
 			name = AliyunPlayerDemo;
 			sourceTree = "<group>";
@@ -523,15 +494,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		346E1EC52102DF670014C5AB /* libs */ = {
+		34197C0121096F730036B9A6 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				346E1EC62102DF670014C5AB /* AliThirdparty.framework */,
-				346E1EC72102DF670014C5AB /* AliyunLanguageSource.bundle */,
-				346E1EC82102DF670014C5AB /* AliyunPlayerSDK.framework */,
-				346E1EC92102DF670014C5AB /* AliyunVodPlayerSDK.framework */,
+				8D085DB1D6F7474F91DE7C97 /* libRNAliyunPlayer.a */,
 			);
-			path = libs;
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		34197C2721096F740036B9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34197C2B21096F750036B9A6 /* libRNAliyunPlayer.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -567,6 +543,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				6C460944864A46AEB959B483 /* RNAliyunPlayer.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -583,11 +560,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				3484451E210C6AF900C65CFE /* AliThirdparty.framework */,
+				3484451F210C6AF900C65CFE /* AliyunLanguageSource.bundle */,
+				348444F2210C6ACC00C65CFE /* AliyunPlayerSDK.framework */,
+				34844519210C6ACC00C65CFE /* AliyunVodPlayerSDK.framework */,
 				13B07FAE1A68108700A75B9A /* AliyunPlayerDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AliyunPlayerDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				34197C0121096F730036B9A6 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -640,8 +621,13 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = Y2E9AM7RN7;
+					};
+				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AliyunPlayerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -702,6 +688,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 34197C2721096F740036B9A6 /* Products */;
+					ProjectRef = 6C460944864A46AEB959B483 /* RNAliyunPlayer.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -845,6 +835,13 @@
 			remoteRef = 2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		34197C2B21096F750036B9A6 /* libRNAliyunPlayer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNAliyunPlayer.a;
+			remoteRef = 34197C2A21096F750036B9A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -980,7 +977,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				346E1ECD2102DF670014C5AB /* AliyunLanguageSource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,9 +1005,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				3490AF4421046D8100147CC2 /* AliyunPlayerView.m in Sources */,
-				346E1ECB2102DF670014C5AB /* AliyunPlayManager.m in Sources */,
-				346E1ED02102DF670014C5AB /* RNAliyunPlayer.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1037,12 +1030,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = Y2E9AM7RN7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs",
+					"$(SRCROOT)/../node_modules/react-native-aliyun-player/ios/libs",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-aliyun-player/ios/**",
 				);
 				INFOPLIST_FILE = AliyunPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AliyunPlayerDemo\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1058,12 +1061,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2E9AM7RN7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs",
+					"$(SRCROOT)/../node_modules/react-native-aliyun-player/ios/libs",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-aliyun-player/ios/**",
 				);
 				INFOPLIST_FILE = AliyunPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AliyunPlayerDemo\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
