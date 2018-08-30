@@ -3,11 +3,11 @@
 import React, { Component } from 'react'
 import { requireNativeComponent } from 'react-native'
 
-const AliyunPlay = requireNativeComponent('AliyunPlay', AliyunPlayView)
+const AliyunPlay = requireNativeComponent('ALiVideoView', AliyunPlayView)
 
 export default class AliyunPlayView extends Component {
   render () {
-    return <AliyunPlay {...this.props} onEventCallback={e => console.log('onEventCallback', e)}/>
+    return <AliyunPlay {... this.props}/>
   }
 }
 

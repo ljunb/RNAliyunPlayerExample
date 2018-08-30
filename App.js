@@ -7,8 +7,9 @@
  */
 
 import React, { Component } from "react";
-import { Platform, StyleSheet, Text, View, Dimensions, TouchableOpacity } from "react-native";
-import AliyunPlayerView from 'react-native-aliyun-player';
+import { Platform, StyleSheet, Text, View, Dimensions, TouchableOpacity, NativeModules } from "react-native";
+import AliyunPlayerView from './AliyunPlayerView';
+// import AliyunPlayerView from 'react-native-aliyun-player';
 
 const SCREEN_W = Dimensions.get('window').width;
 
@@ -28,16 +29,29 @@ export default class App extends Component {
     console.log(`CurrentTime: ${currentTime} duration: ${duration}`);
   }
 
-  handlePlay = () => alert('test');
-
+  handlePlay0 = () => {
+    NativeModules.AliyunVideo.setUrl()
+  };
+  handlePlay = () => {
+    NativeModules.AliyunVideo.start()
+  };
+  handlePlay2 = () => {
+    NativeModules.AliyunVideo.pause()
+  };
   render() {
     return (
       <View style={styles.container}>
+        <TouchableOpacity onPress={this.handlePlay0} style={{ height: 40, width: 100, backgroundColor: 'red' }}>
+          <Text>set url</Text>
+        </TouchableOpacity>
         <TouchableOpacity onPress={this.handlePlay} style={{ height: 40, width: 100, backgroundColor: 'red' }}>
-          <Text>播放/暂停</Text>
+          <Text>播放</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={this.handlePlay2} style={{ height: 40, width: 100, backgroundColor: 'red' }}>
+          <Text>暂停</Text>
         </TouchableOpacity>
         <AliyunPlayerView
-          style={{ height: 300, width: SCREEN_W }}
+          style={{ height: 200, width: SCREEN_W }}
           play={this.state.play}
           prepareAsyncParams={{
             type: "vidSts",
